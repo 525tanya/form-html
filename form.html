@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en_US">
+    <head>
+        <meta charset="UTF-8">
+        <!-- title and description -->
+        <title>Title</title>
+        <meta name="description" content="Description content.">
+        <!-- viewport -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+        <!-- styles -->
+        <link rel="stylesheet" href="styles/style.css" type="text/css">
+        <!-- icons -->
+        <link rel="icon" href="favicon.png"> <!--32х32-->
+        <link rel="apple-touch-icon" href="src/icons/touch-icon-iphone.png"> <!--60х60-->
+        <link rel="apple-touch-icon" sizes="76x76" href="src/icons/touch-icon-ipad.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="src/icons/touch-icon-iphone-retina.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="src/icons/touch-icon-ipad-retina.png">
+        <!-- open graph -->
+        <meta property="og:title" content="Open graph title" />
+        <!--
+        <meta property="og:type" content="video/mp4" />
+        <meta property="og:video" content="https://site.com/video/example.mp4" />
+        -->
+        <!--
+        <meta property="og:type" content="audio/mp3" />
+        <meta property="og:audio" content="https://site.com/audio/example.mp3" />
+        -->
+        <meta property="og:type" content="article" /> <!-- if not audio and not video -->
+        <meta property="og:url" content="https://website.com/" />
+        <meta property="og:image" content="src/icons/og.png" /> <!-- OG image is 1200×630 pixels  -->
+        <meta property="og:site_name" content="website.com" /> <!-- not important -->
+        <meta property="og:description" content="Description content." /> <!-- not important -->
+        <meta property="og:locale" content="en_US" /> <!-- default: "en_US" -->
+    </head>
+    <body>
+       <form>
+       <h1> Анкета разработчика</h1>
+        <label for="input-text">Введите имя</label><br>
+<input id="input-text" type="text" placeholder="Name"><br><br>
+<label for="input-tel">Возраст</label><br>
+<input id="input-tel" type="tel" value="12" step="1"> <min="12"> <max="99"> <br></min></max>
+<label for="input-pass">Введите пароль</label><br>
+<input id="input-pass" type="password"><br>
+<label for="input-date">Введите дату</label><br>
+<input id="input-date" type="date"><br>
+<select size="5"multiple><br>
+    <option>JavaScript</option><br>
+    <option>Python</option><br>
+    <option>С++</option><br>
+    <option>PHP</option><br>
+    <option>C#</option><br>
+    </select><br>
+  <label for="Front-end">Front-end</label>
+          <input type="radio" id="Front-end" name="favorite" checked><br>
+              <label for="Back-end">Back-end</label>
+              <input type="radio" id="Back-end" name="favorite"> <br>
+                      <label for="Full-stack">Full-stack</label>
+                 <input type="radio" id="Full-stack" name="favorite"> <br>
+                  <label for="input-check">Согласие на обработку введенных в форму данных
+</label> <br>
+<input id="input-check" type="checkbox"><br>
+<textarea cols="25" rows="4">Дополнительная информация</textarea><br>
+<input type="button" value="отправить"> <br>
+<input type="reset" value="очистить">
+<h2> Мои предыдущие проекты</h2>
+<ol type="1" start="1"></ol>
+<a href="https://github.com/525tanya/hello-html/blob/main/index.html"> Код </a><br>
+ <a href="file:///C:/Users/37533/OneDrive/Desktop/таня/web-проекты/table-html/index.html"> Картинка</a>   
+ 
+</form>
+    
+
+
+
+
+
+
+
+    </body>
+</html>
